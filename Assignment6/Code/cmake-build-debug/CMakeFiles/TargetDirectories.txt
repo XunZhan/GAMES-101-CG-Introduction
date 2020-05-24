@@ -1,3 +1,0 @@
-/Users/xun/Desktop/Assignment6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/xun/Desktop/Assignment6/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xun/Desktop/Assignment6/cmake-build-debug/CMakeFiles/RayTracing.dir
