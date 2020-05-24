@@ -216,9 +216,9 @@ void Renderer::Render(const Scene& scene)
     float imageAspectRatio = scene.width / (float)scene.height;
 
     // Use this variable as the eye position to start your rays.
-    Vector3f eye_pos(-1,3,3);
+    Vector3f eye_pos(0,0,0);
   
-    float focal = 2.0f;
+    float focal = 1.0f;
     float x_min = -imageAspectRatio * scale * focal, y_max = scale * focal;
     float cell_width = 2 * (-x_min) / scene.width;
     float cell_height = 2 * y_max/ scene.height;
@@ -238,16 +238,13 @@ void Renderer::Render(const Scene& scene)
 
             Vector3f dir = normalize(Vector3f(x, y, z)); // Don't forget to normalize this direction!
             Vector3f color = castRay(eye_pos, dir, scene, 0);
-            clamp(0,1,color.x);
-            clamp(0,1,color.y);
-            clamp(0,1,color.z);
             framebuffer[m++] = color;
         }
         UpdateProgress(j / (float)scene.height);
     }
 
     // save framebuffer to file
-    FILE* fp = fopen("binary.ppm", "wb");
+    FILE* fp = fopen("../images/binary.ppm", "wb");
     (void)fprintf(fp, "P6\n%d %d\n255\n", scene.width, scene.height);
     for (auto i = 0; i < scene.height * scene.width; ++i) {
         static unsigned char color[3];
