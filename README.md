@@ -18,8 +18,8 @@ All detailed requirements are included in the PDF under each folder.
 All output images are generated in folders named 'images'.
 
 ### Assigment 5 - Intersection with Triangles
-<img src="Assignment5/result.ppm" width="300" />  
+<img src="Assignment5/result.jpg" width="300" />  
 ### Assigment 6 - Acceleration Using BVH (Bounding Volume Hierarchy)
-<img src="Assignment6/result.ppm" width="300" />
+<img src="Assignment6/result.jpg" width="300" />
 ### Assigment 7 - Simulation of Path Tracing
-<img src="Assignment7/result.ppm" width="300" />
+<img src="Assignment7/result.jpg" width="300" />
