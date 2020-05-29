@@ -6,8 +6,6 @@
 
 **Instructor:** Prof. [Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/#), UCSB
 
-## Project Introduction
-
 Course Videos: [https://www.bilibili.com/video/BV1X7411F744?p=1](https://www.bilibili.com/video/BV1X7411F744?p=1)  
 Course Details: [https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)  
 Course BBS: [http://games-cn.org/forums/forum/graphics-intro/](http://games-cn.org/forums/forum/graphics-intro/)  
@@ -20,5 +18,8 @@ All detailed requirements are included in the PDF under each folder.
 All output images are generated in folders named 'images'.
 
 ### Assigment 5 - Intersection with Triangles
+<img src="Assignment5/result.ppm" width="300" />  
 ### Assigment 6 - Acceleration Using BVH (Bounding Volume Hierarchy)
+<img src="Assignment6/result.ppm" width="300" />
 ### Assigment 7 - Simulation of Path Tracing
+<img src="Assignment7/result.ppm" width="300" />
